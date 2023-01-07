@@ -291,11 +291,11 @@ body {
     /* margin: 1rem 0; */
 }
 
-.main-body .news a {
+.main-body .news a, .news2 a {
     text-decoration: none;
 }
 
-.main-body .news a:hover {
+.main-body .news a:hover, .news2 a:hover {
     text-decoration: underline;
 }
 
@@ -303,7 +303,7 @@ body {
     margin: 0.5rem 0;
 }
 
-.main-body .news p {
+.main-body .news p, .news2 p {
     font-size: 14px;
     color: #70757a;
 }
@@ -313,16 +313,16 @@ body {
     border-radius: 8px;
 }
 
-.sec-news-post a {
+.sec-news-post a, .news2 a {
     line-height: 24px;
     /* margin: 1rem 0 2rem 0; */
 }
 
-.sec-news p {
+.news .sec-news p {
     margin: 0.6rem 0;
 }
 
-.third-news a {
+.news .third-news a {
     line-height: 24px; 
 }
 
@@ -331,7 +331,7 @@ body {
     /* gap: 1rem; */
 }
 
-.sec-news {
+.news .sec-news {
     border-bottom: 0.5px solid #dee0e4;
 }
 
@@ -340,7 +340,7 @@ body {
     gap: 0.6rem;
 }
 
-.main-body .first-news {
+.main-body .news .first-news {
     margin: 1rem 0;
     padding-right: 1rem;
     border-right: 0.5px solid #dee0e4;
@@ -375,4 +375,34 @@ body {
 
 .news-abt-ronaldo-messi a:hover {
     text-decoration: underline;
+}
+
+.news2 {
+    display: flex;
+}
+
+.news2 .first-post {
+    display: flex;
+}
+
+.news2 .first-news {
+    margin: 1rem 0;
+    padding-right: 1rem;
+    border-right: 0.5px solid #dee0e4;
+}
+
+.news2 .sec-news {
+    margin: 1rem 0;
+    padding-left: 1rem;
+}
+
+.news2 p {
+    margin: 0.6rem 0;
+}
+
+.main-body .also p {
+    color: inherit;
+    font-size: 18px;
+    padding-bottom: 1rem;
+    border-bottom: 0.5px solid #dee0e4;
 }
