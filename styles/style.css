@@ -111,10 +111,6 @@ body {
     margin-left: 14.5rem;
 } 
 
-/* .navbar {
-    border-bottom: 0.5px solid #e7eaee;
-} */
-
 .navbar .all {
     color: #1a73e8;
 }
@@ -238,6 +234,10 @@ body {
     font-size: 13px;
 }
 
+.main-body .more-images a:hover {
+    text-decoration: underline;
+}
+
 .main-body .more-images span {
     font-size: 20px;
 }
@@ -255,6 +255,7 @@ body {
     padding: 0 8px;
     border-radius: 6px 0 12px 0;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .main-body .top-stories p {
@@ -379,6 +380,7 @@ body {
 
 .news2 {
     display: flex;
+    width: 100%;
 }
 
 .news2 .first-post {
@@ -389,11 +391,15 @@ body {
     margin: 1rem 0;
     padding-right: 1rem;
     border-right: 0.5px solid #dee0e4;
+    width: 50%;
+    cursor: pointer;
 }
 
 .news2 .sec-news {
     margin: 1rem 0;
     padding-left: 1rem;
+    width: 50%;
+    cursor: pointer;
 }
 
 .news2 p {
@@ -405,4 +411,184 @@ body {
     font-size: 18px;
     padding-bottom: 1rem;
     border-bottom: 0.5px solid #dee0e4;
+}
+
+.nin {
+    border-bottom: 0.5px solid #dee0e4;
+    padding-bottom: 1.3rem;
+}
+
+.more-news {
+    display: inline-flex;
+    gap: 0.4rem;
+    background-color: #e6eaee;
+    padding: 0.5rem 5.5rem;
+    border-radius: 20px;
+    position: absolute;
+    top: 80.5rem;
+    left: 24rem;
+    cursor: pointer;
+}
+
+.more-news:hover {
+    background-color: #b1b5b9;
+}
+
+.more-news span {
+    font-size: 20px;
+    color: #5F6368;
+}
+
+.more-news a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px;
+}
+
+.people-ask .paa {
+    color: #202124;
+    font-size: 22px;
+    line-height: 24px;
+    margin: 2.8rem 0 1.2rem 0;
+} 
+
+.people-ask .drop-down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.65rem 0;
+    border-top: 0.5px solid #e7e7e7;    
+    cursor: pointer;
+}
+
+.hr-fd .hr-fdb {
+    border-top: 0.5px solid #e7e7e7;
+    margin-bottom: 1rem;
+}
+
+.hr-fd p {
+    cursor: pointer;
+    font-size: 12px;
+    color: #70757a;
+    position: absolute;
+    top: 107rem;
+    left: 48.5rem;
+    background-color: white;
+    padding: 0 0.6rem;
+   
+}
+
+.search-results .link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+.search-results .link p {
+    font-size: 14px;
+}
+
+.search-results .link span {
+    color: #5c5c5e;
+}
+
+.search-results .material-symbols-outlined {
+    font-size: 20px;
+}
+
+.search-results .results a {
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+.search-results .results a:hover {
+    text-decoration: underline;
+}
+
+.search-results .results .text {
+    font-size: 14px;
+    line-height: 20px;
+    color: #5c5c5e;
+}
+
+.search-results .results {
+    margin: 2.5rem 0;
+}
+
+.main-body .videos {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.main-body .videos p {
+    font-size: 20px;
+}
+
+.main-body .videos span {
+    color: #5F6368;
+}
+
+.main-body .video-news .video-play {
+    display: flex;
+    gap: 1.2rem;
+    cursor: pointer;
+    border-top: 0.5px solid #e7e7e7;
+    padding: 0.7rem 0;
+}
+
+.main-body .video-text a {
+    text-decoration: none;
+}
+
+.main-body .video-text a:hover {
+    text-decoration: underline;
+}
+
+.main-body .video-text p {
+    font-size: 15px;
+
+}
+
+.main-body .video-text .youtube {
+    margin: 0.9rem 0 0.2rem 0;
+}
+
+.main-body .video-text span, .main-body .video-text .time {
+    color: #5f6368;
+}
+
+.nin2 {
+    border-bottom: 0.5px solid #dee0e4;
+    padding-bottom: 0.9rem;
+}
+
+.more-news2 {
+    display: inline-flex;
+    gap: 0.4rem;
+    background-color: #e6eaee;
+    padding: 0.5rem 5.5rem;
+    border-radius: 20px;
+    position: absolute;
+    top: 168.32rem;
+    left: 24rem;
+    cursor: pointer;
+}
+
+.more-news2:hover {
+    background-color: #b1b5b9;
+}
+
+.more-news2 span {
+    font-size: 20px;
+    color: #5F6368;
+}
+
+.more-news2 a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px;
 }
