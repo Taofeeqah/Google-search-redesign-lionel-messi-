@@ -452,7 +452,7 @@ body {
     margin: 2.8rem 0 1.2rem 0;
 } 
 
-.people-ask .drop-down {
+.drop-down {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -591,4 +591,11 @@ body {
     text-decoration: none;
     color: inherit;
     font-size: 15px;
+}
+
+.results table {
+    width: 100%;
+    font-size: 14px; 
+    color: #5F6368; 
+    margin-top: 1rem;
 }
