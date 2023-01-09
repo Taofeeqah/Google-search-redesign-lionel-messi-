@@ -777,7 +777,23 @@ body {
     margin: 1rem 0;
 }
 
-.table-stat table {
+.table .heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table .heading p {
+    font-size: 12px;
+}
+
+.table .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 0.5px solid #dee0e4;
+}
+
+/* .table-stat table {
     width: 100%;
 }
 
@@ -794,6 +810,7 @@ body {
     text-align: center;
 }
 
-.table-stat table tr {
-    border-top: 0.5px solid #dee0e4;
-}
+.table-stat table .tr {
+    border-bottom: 0.5px solid #dee0e4;
+    
+} */
