@@ -18,8 +18,11 @@ body {
 .navbar .topnav {
     display: flex;
     align-items: center;
+    padding: ;
     margin: 0 20px;
-    position: sticky;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
 }
 
 .navbar .topnav .searchbar {
@@ -28,10 +31,9 @@ body {
     justify-content: space-between;
     width: 41.2rem;
     border-radius: 32px;
-    margin: 2rem 24rem 1.5rem 2rem;
+    margin: 1rem 24rem 1rem 2rem;
     padding: 7px;
     box-shadow: 3px 3px 8px rgb(207, 206, 206);
-
 }
 
 .navbar .topnav input {
@@ -92,6 +94,7 @@ body {
     display: flex;
     align-items: center;
     margin-left: 11rem;
+    padding-top: 5.5rem;
 }
 
 .navbar .options {
