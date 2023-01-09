@@ -703,7 +703,7 @@ body {
 .about-body .about {
     border-left:  0.5px solid #dee0e4;
     padding-left: 1rem;
-    border-bottom: 0.5px solid #dee0e4;
+    
 }
 
 .about-body .about a {
@@ -717,6 +717,8 @@ body {
 .about-body .about .claim {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 0.5px solid #dee0e4;
 }
 
 .about-body .about p {
@@ -734,5 +736,13 @@ body {
     border: 0.5px solid #dee0e4;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.about .profiles .text {
+    font-size: 20px; 
+}
+
+.about .profiles .social-media {
+    display: flex;
 }
 
