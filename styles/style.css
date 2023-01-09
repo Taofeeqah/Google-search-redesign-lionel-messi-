@@ -700,9 +700,23 @@ body {
     margin: 2rem 5rem 0 0;
 }
 
-.about {
+.about-body .about {
     border-left:  0.5px solid #dee0e4;
     padding-left: 1rem;
+    border-bottom: 0.5px solid #dee0e4;
+}
+
+.about-body .about a {
+    text-decoration: none;
+}
+
+.about-body .about a:hover {
+    text-decoration: underline;
+}
+
+.about-body .about .claim {
+    display: flex;
+    justify-content: space-between;
 }
 
 .about-body .about p {
@@ -710,5 +724,15 @@ body {
     line-height: 1.58;
     color: #4d5156;
     margin: 0.5rem 0;
+}
+
+.about .claim .tick {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0 0.8rem;
+    border: 0.5px solid #dee0e4;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
