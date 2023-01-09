@@ -605,7 +605,7 @@ body {
     font-size: 12px;
     color: #70757a;
     position: absolute;
-    top: 241.5rem;
+    top: 245.5rem;
     left: 48.5rem;
     background-color: white;
     padding: 0 0.6rem;
@@ -622,3 +622,73 @@ body {
     align-items: center;
     gap: 0.5rem;
 }
+
+.suggestions {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+.res1a {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #e9ecf0;
+    margin-bottom: 0.4rem;
+    padding: 0.8rem 5rem 0.8rem 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.res1a a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.res1a p:hover {
+    text-decoration: underline;
+}
+
+.res1a span {
+    font-size: 20px;
+}
+
+.goog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.goog span {
+    color: #4285f4;
+}
+
+.goooogle .numbers {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.numbers a {
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 0.35rem;
+}
+
+.numbers a:hover {
+    text-decoration: underline;
+}
+
+.num-next p {
+    font-size: 14px;
+    margin-right: 0.35rem;
+}
+
+.goooogle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 1.5rem 11rem 2.5rem 0;
+}
+
