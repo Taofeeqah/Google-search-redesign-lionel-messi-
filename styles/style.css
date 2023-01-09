@@ -250,7 +250,7 @@ body {
     height: 32px;
     gap: 0.4rem;
     bottom: 35px;
-    left: 543px;
+    left: 548px;
     background-color: rgba(0, 0, 0, 0.384);
     padding: 0 8px;
     border-radius: 6px 0 12px 0;
@@ -869,9 +869,13 @@ footer .nigeria .loc {
 }
 
 footer .location .hr {
-    padding-top: 1rem ;
     margin-bottom: 1rem;
     border-bottom: 0.5px solid #dee0e4;
+}
+
+footer .loc {
+    padding-left: 1rem;
+    padding-bottom: 0.6rem ;
 }
 
 footer .loc a {
@@ -881,6 +885,9 @@ footer .loc a {
 footer .nigeria .text {
     font-size: 15px;
     color: #70757a;
+    padding-bottom: 0.6rem;
+    padding-right: 1rem;
+    border-right: 0.5px solid #dee0e4;
 }
 
 footer .help {
@@ -891,6 +898,7 @@ footer .help a {
     font-size: 15px;
     color: #70757a;
     text-decoration: none;
+    margin-right: 0.6rem;
 }
 
 
