@@ -599,3 +599,26 @@ body {
     color: #5F6368; 
     margin-top: 1rem;
 }
+
+.rel-src p {
+    cursor: pointer;
+    font-size: 12px;
+    color: #70757a;
+    position: absolute;
+    top: 241.5rem;
+    left: 48.5rem;
+    background-color: white;
+    padding: 0 0.6rem;
+   
+}
+
+.drpd {
+    padding: 0.5rem 0;
+    font-size: 16px;
+}
+
+.rel-pic {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
