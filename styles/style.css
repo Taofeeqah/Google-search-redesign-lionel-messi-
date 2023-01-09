@@ -744,5 +744,17 @@ body {
 
 .about .profiles .social-media {
     display: flex;
+    align-items: center;
 }
 
+.about .profiles .social-media p {
+    text-align: center;
+}
+
+.social-media .youtube {
+    margin: 0 1rem;
+}
+
+.social-media img {
+    padding: 0 1rem;
+}
