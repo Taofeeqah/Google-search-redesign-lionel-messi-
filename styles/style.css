@@ -745,6 +745,8 @@ body {
 .about .profiles .social-media {
     display: flex;
     align-items: center;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.5px solid #dee0e4;
 }
 
 .about .profiles .social-media p {
@@ -757,4 +759,20 @@ body {
 
 .social-media img {
     padding: 0 1rem;
+}
+
+.stats span {
+    padding: 6px;
+    line-height: 20px;
+    color: #4d5156;
+    border: 0.5px solid #dee0e4;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
 }
