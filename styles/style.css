@@ -697,7 +697,18 @@ body {
 }
 
 .about-body {
-    margin: 2rem 4rem 0 0;
-    border-left: ;
+    margin: 2rem 5rem 0 0;
+}
+
+.about {
+    border-left:  0.5px solid #dee0e4;
+    padding-left: 1rem;
+}
+
+.about-body .about p {
+    font-size: 14px;
+    line-height: 1.58;
+    color: #4d5156;
+    margin: 0.5rem 0;
 }
 
